@@ -1,0 +1,77 @@
+html {
+    scroll-behavior: smooth;
+}
+.carousel-item img{
+height:60vh;
+}
+.card .card-body img{
+width:30px;
+}
+.card .card-body a{
+text-decoration:none;
+}
+.card{
+margin:0 10px;
+}
+.product .card{
+margin-top:10px;
+}
+.hiddenlogin{
+height:40vh;
+width: 60vh;
+align-items:center;
+margin:auto;
+background-color:red; 
+display:none; 
+
+}
+#blogheader{
+font-family:cursive;
+font-weight:400;
+text-decoration:1px solid underline;
+color:pink;
+}
+.login-btn{
+    border:black;
+    padding: 10px 20px;
+    border-radius: 25px; /* More curved corners */
+    transition: background-color 0.3s ease;
+    font-weight: bolder; /* Bold text */
+    text-transform: uppercase; /* Capital letters */
+    font-style: italic; /* Italic text */
+    width:20vw;
+  }
+
+  .login-btn:hover {
+    background-color: #eadfdf ; /* Lighter fade-red color on hover */
+  }
+  .card.new {
+    border-top:1px solid red;
+    border-bottom:1px solid red; /* Red border */
+}
+
+.card.new .card-title {
+    color: red; /* Red text */
+    font-weight: bold; /* Bold text */
+}
+
+.card.new .card-title:hover {
+    text-decoration: underline; /* Underline on hover */
+    text-decoration-color: black; /* Black underline */
+    text-decoration-thickness: 2px; /* Thickness of underline */
+    text-underline-offset: 3px; /* Offset of underline */
+}
+.hotbox {
+    background-color: rgba(242, 11, 26, 0.2); /* Red background with opacity */
+}
+
+.hotbox h3 {
+    color: black; /* Black text */
+    font-style: italic; /* Italic text */
+}
+.card.product:hover,.card .blog:hover{
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red box shadow on hover */
+}
+.card.blog:hover{
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); /* Red box shadow on hover */
+}

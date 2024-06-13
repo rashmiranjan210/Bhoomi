@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        .bread{
+        padding: 4px 15px;
+        margin-bottom:5px;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+    .breadcrumb li:before{
+       content:"";
+       color:#cccccc;
+    }
+      </style>
+</head>
+<body>
+    <div class="col-md-12 bg-dark mt-2 bread">
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  <ol class="breadcrumb mt-2">
+    <li class="breadcrumb-item"><a href="index.php">Dashboard</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Add Product</li>
+</ol>
+</nav>
+    </div>
+    
+</body>
+</html>
+<!-- <?php
+                                $get_cat ="SELECT * FROM catagory"; // Corrected spelling of "category"
+                                echo $get_cat;
+                                $run_cat = mysqli_query($conn, $get_cat);
+                                while ($row = mysqli_fetch_array($run_cat)) {
+                                    $cname = $row["name"];?>
+                                     <option value="<?php echo $cname;?>"><?php echo $cname;?></option>
+                                    <?php
+                                }
+                                ?> -->
+
+

@@ -1,0 +1,40 @@
+.footer ul li{
+    list-style-type: none; 
+}
+.footer ul li a{
+    text-decoration:none;
+}
+.footer h2 {
+  font-style: italic;
+  font-weight: bold;
+  color:red;
+  text-transform:lowercase;
+}
+
+#about {
+  font-style: italic;
+  color: white;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color:white;
+  transition: color 0.3s;
+}
+
+.footer ul li a:hover {
+  color:red;
+}
+
+.bi {
+  color:red;
+  transition: color 0.3s;
+}
+
+.bi:hover {
+  color: white;
+}
+
+.copyright p {
+  color: red;
+}

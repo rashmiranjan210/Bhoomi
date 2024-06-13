@@ -1,0 +1,22 @@
+.contact form{
+    padding: 4px 15px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+    box-sizing:border-box;
+    }
+.submit{
+border:black;
+padding: 10px 20px;
+border-radius: 25px; /* More curved corners */
+transition: background-color 0.3s ease;
+font-weight: bolder; /* Bold text */
+text-transform: uppercase; /* Capital letters */
+font-style: italic; /* Italic text */
+width:20vw;
+}
+
+.login-btn:hover {
+background-color:black; /* Lighter fade-red color on hover */
+}
+.row h3{
+text-transform:uppercase;
+}

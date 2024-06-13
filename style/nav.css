@@ -1,0 +1,42 @@
+#logo{
+    border-radius:50%;
+    }
+    .cartlogo img{
+      height:30px;
+      border-radius:50%;
+    }
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar-brand img {
+        border-radius: 50%;
+    }
+
+    /* .navbar-nav .nav-link {
+        color: white;
+        font-style: italic;
+        font-weight: bold;
+    } */
+
+    #searchInput {
+        color: black; /* Black text */
+        border: none;
+    }
+
+    #searchInput::placeholder {
+        color: #ff6666; /* Lighter fade-red color */
+    }
+
+    .btn-dark {
+       
+        border-color: #ff0000; /* Red color */
+    }
+
+    .cartlogo .bi-cart {
+        color: red; /* Red color for cart icon */
+    }
+    .navbar-nav .nav-link:hover {
+        color: red; /* Changing color to red on hover */
+    }
+    

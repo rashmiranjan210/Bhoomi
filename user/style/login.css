@@ -1,0 +1,55 @@
+.login{
+    height:100vh;
+    background-color:white;
+}
+.box{
+    width:55vw;
+    margin-top:10vh;
+    background: rgba(255,0,0,0.6);
+    z-index: 10;
+    border-radius:7px;
+    border: 2px solid rgba(255,255,255,0.8);
+    backdrop-filter:blur(7px);
+    box-shadow: -20px 20px 20px rgba(10,10,10,0.25);
+}
+#logo{
+border-radius:50%;
+}
+.cartlogo img{
+height:30px;
+border-radius:50%;
+}
+.navbar {
+background-color: black;
+}
+
+.navbar-brand img {
+border-radius: 50%;
+}
+
+.navbar-nav .nav-link {
+color: white;
+font-style: italic;
+font-weight: bold;
+}
+
+#searchInput {
+color: black; /* Black text */
+border: none;
+}
+
+#searchInput::placeholder {
+color: #ff6666; /* Lighter fade-red color */
+}
+
+.btn-dark {
+
+border-color: #ff0000; /* Red color */
+}
+
+.cartlogo .bi-cart {
+color: red; /* Red color for cart icon */
+}
+.navbar-nav .nav-link:hover {
+color: red; /* Changing color to red on hover */
+}
